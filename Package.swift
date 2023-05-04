@@ -24,7 +24,8 @@ let package = Package(
     targets: [
         .target(
             name: "DGCharts",
-            dependencies: [.product(name: "Algorithms", package: "swift-algorithms")]
+            dependencies: [.product(name: "Algorithms", package: "swift-algorithms")],
+            path: "Source/Charts"
         )
     ],
     swiftLanguageVersions: [.v5]
